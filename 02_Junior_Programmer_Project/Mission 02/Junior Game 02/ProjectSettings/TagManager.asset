@@ -5,6 +5,11 @@ TagManager:
   serializedVersion: 3
   tags:
   - Animal
+  - Animals
+  - Players
+  - PalyerAA
+  - Dog
+  - DogAA
   layers:
   - Default
   - TransparentFX

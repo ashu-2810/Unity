@@ -47,7 +47,7 @@ public class PlayerController : MonoBehaviour
         transform.Translate(Vector3.forward * verticalInput * Time.deltaTime * speed);
 
 
-        // shoot pizza
+        // shoot pizza Prefab
         if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(projectilePrefab, projectileSpawnPoint.position, projectilePrefab.transform.rotation);
